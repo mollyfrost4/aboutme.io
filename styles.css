@@ -1,5 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
+}
+
+main {
+    flex: 1;
 }
 
 header {
@@ -14,6 +25,13 @@ header {
     width: 200px;
     height: auto;
     border-radius: 50%;
+}
+
+.decorative-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 h1 {
@@ -37,7 +55,7 @@ a:hover {
 
 form {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 form label {
@@ -68,8 +86,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
