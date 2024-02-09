@@ -81,6 +81,18 @@ form button:hover {
     background-color: #0056b3;
 }
 
+.image-container {
+    text-align: center;
+}
+
+.inline-image {
+    width: 30%; /* Adjust the width as necessary */
+    margin: 0 1.5%; /* Adjust the spacing between images */
+    display: inline-block; /* This makes the images line up side by side */
+    vertical-align: middle; /* This aligns the images vertically */
+}
+
+
 footer {
     background-color: #333;
     color: white;
